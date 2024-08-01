@@ -43,16 +43,24 @@
 ## **Usage**
   To interact with the bot, use the following commands in your Discord server:
 
-  - **/gpt [your-message] :** Get a response from the AI.\n
+  - **/gpt [your-message] :** Get a response from the AI.
+    
   The bot will respond with an AI-generated message based on the input provided.
 
 ## Project Structure
-  - run.py: The main entry point for running the bot.
-  - app/: Contains the core logic of the bot.\n
-    - NexusAI/: Handles the Discord API interactions.\n
-    - chatgpt_ai/: Contains the integration with OpenAI's GPT.
-  - img/: Placeholder for any images used in the bot .
-  - .env: Environment variables file.
+  **NexusAI**/
+  ├── **.env** : Environment variables file.
+  ├── **app/** : Contains the core logic of the bot.
+  │   ├── **chatgpt_ai/** : Contains the integration with OpenAI's GPT.
+  │   │   ├── **__init__.py**
+  │   │   ├── **openai.py**
+  │   ├── **discord_bot/** : Handles the Discord API interactions.
+  │       ├── **discord_api.py**
+  │       └── **init__.py**
+  ├── **img/** : Placeholder for any images used in the bot .
+  ├── **run.py** : The main entry point for running the bot.
+  ├── **requirements.txt**
+  └── **README.md**
 
 ## **Contributing**
   Contributions are welcome! Please follow these steps to contribute:
