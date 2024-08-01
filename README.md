@@ -3,7 +3,7 @@
 `NexusAI` is a Discord bot that leverages OpenAI's GPT technology to provide conversational AI capabilities directly within Discord. This bot can respond to user messages, simulate conversations, and provide intelligent responses based on user input.
 
 ## **Features**
-- **AI-Powered Conversations:** Engage with the bot using command /gpt to receive intelligent responses.
+- **AI-Powered Conversations:** Engage with the bot using command `/gpt [Your_Message]` to receive intelligent responses.
 - **Easy Setup:** Quickly deploy the bot using the provided run.py script.
 - **Customizable:** Modify the bot's behavior and extend its functionality by editing the source code.
 
