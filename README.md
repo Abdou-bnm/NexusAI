@@ -49,8 +49,8 @@
 ## Project Structure
   - run.py: The main entry point for running the bot.
   - app/: Contains the core logic of the bot.
-    -- NexusAI/: Handles the Discord API interactions.
-    -- chatgpt_ai/: Contains the integration with OpenAI's GPT.
+    \n - NexusAI/: Handles the Discord API interactions.
+    \n - chatgpt_ai/: Contains the integration with OpenAI's GPT.
   - img/: Placeholder for any images used in the bot .
   - .env: Environment variables file.
 
